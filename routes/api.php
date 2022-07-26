@@ -27,6 +27,7 @@ Route::get('/Product/{id}',[ProductController::class, 'show']);
 
 //POST 
 Route::post('/Product',[ProductController::class],'store');
+
 //Route::post('product', 'ProductController@store');
 
 //PATCH
